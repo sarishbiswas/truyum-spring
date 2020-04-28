@@ -24,14 +24,14 @@ public class App {
 //    	System.out.println(menuItemService.getMenuItem(1));
     	MenuItem menuItem = new MenuItem();
 //    	menuItem.setId(10);
-    	menuItem.setCategory("Main Course");
-    	menuItem.setActive(true);
-    	menuItem.setFreeDelivery(true);
-    	menuItem.setName("Ani");
-    	menuItem.setPrice(100000f);
-    	menuItem.setDateOfLaunch( DateUtil.convertToDate("06/06/1996"));
+//    	menuItem.setCategory("Main Course");
+//    	menuItem.setActive(true);
+//    	menuItem.setFreeDelivery(true);
+//    	menuItem.setName("Ani");
+//    	menuItem.setPrice(100000f);
+//    	menuItem.setDateOfLaunch( DateUtil.convertToDate("06/06/1996"));
 //				 
-    	menuItemService.modifyMenuItem(menuItem);
+//    	menuItemService.modifyMenuItem(menuItem);
     	System.out.println(menuItemService.getMenuItem(7));
     }
 }
